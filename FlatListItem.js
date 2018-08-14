@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View } from "react-native";
-import {StyledColumn,HeaderImage,HeaderPhoto,GemPhoto,SendPhoto,CommentPhoto,BookmarkPhoto,BoldAuthor,StyledImg,ActionImage,ActionBar,ActionContainer,BookmarkBar} from './StyledComponents'
+import {StyledColumn,ActionItem,HeaderImage,HeaderPhoto,GemPhoto,SendPhoto,CommentPhoto,BookmarkPhoto,BoldAuthor,StyledImg,ActionImage,ActionBar,ActionContainer,BookmarkBar} from './StyledComponents'
 export default class FlatListItem extends Component {
     constructor(props) {
       super(props);
