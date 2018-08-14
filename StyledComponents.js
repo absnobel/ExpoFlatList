@@ -1,29 +1,30 @@
 import styled from 'styled-components'; // 3.4.2
+import { View, Text, FlatList } from "react-native";
 export const HeaderPhoto = require('assets/lgoo@3x.png');
 export const GemPhoto = require('assets/gem@3x.png');
 export const SendPhoto = require('assets/send@3x.png');
 export const CommentPhoto = require('assets/comments@3x.png');
 export const BookmarkPhoto = require('assets/bookmark@3x.png');
-export const BoldAuthor = styled.span`
+export const BoldAuthor = styled(Text)`
 font-weight:bold;
 `;
 export const StyledImg = styled.img`
 height:200px;
 object-fit: cover;
 `;
-export const ActionBar = styled.div`
+export const ActionBar = styled(View)`
 display:flex;
 flex:0 0 50%;
 flex-wrap: nowrap;
 `
-export const BookmarkBar = styled.div`
+export const BookmarkBar = styled(View)`
 flex:0 0 50%;
 text-align:right;
 `
-export const ActionContainer = styled.div`
+export const ActionContainer = styled(View)`
 display:flex;
 `
-export const ActionItem = styled.div`
+export const ActionItem = styled(View)`
 flex:0 0 33%;
 overflow:hidden;
 `
