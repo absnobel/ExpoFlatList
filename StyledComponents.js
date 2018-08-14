@@ -1,10 +1,10 @@
 import styled from 'styled-components'; // 3.4.2
 import { View, Text, FlatList } from "react-native";
-export const HeaderPhoto = require('assets/lgoo@3x.png');
-export const GemPhoto = require('assets/gem@3x.png');
-export const SendPhoto = require('assets/send@3x.png');
-export const CommentPhoto = require('assets/comments@3x.png');
-export const BookmarkPhoto = require('assets/bookmark@3x.png');
+export const HeaderPhoto = require('./assets/lgoo@3x.png');
+export const GemPhoto = require('./assets/gem@3x.png');
+export const SendPhoto = require('./assets/send@3x.png');
+export const CommentPhoto = require('./assets/comments@3x.png');
+export const BookmarkPhoto = require('./assets/bookmark@3x.png');
 export const BoldAuthor = styled(Text)`
 font-weight:bold;
 `;
@@ -12,6 +12,10 @@ export const StyledImg = styled.img`
 height:200px;
 object-fit: cover;
 `;
+export const HeaderImage = styled.img`
+height:100%;
+object-fit:cover;
+`
 export const ActionBar = styled(View)`
 display:flex;
 flex:0 0 50%;
